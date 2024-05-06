@@ -16,5 +16,10 @@ namespace OgrenciOtomasyon
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            label1.Text = "Merhaba" + Form1.adSoyad;
+        }
     }
 }

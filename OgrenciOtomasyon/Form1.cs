@@ -12,6 +12,10 @@ namespace OgrenciOtomasyon
 {
     public partial class Form1 : Form
     {
+
+        public static string adSoyad = "";
+
+
         public Form1()
         {
             InitializeComponent();
@@ -23,9 +27,13 @@ namespace OgrenciOtomasyon
             if (txtKullanici.Text.Trim().ToLower()
                 == "admin" && txtSifre.Text == "1234")
             {
+                
+                adSoyad = txtAdi.Text;
                 this.Hide();
                 Form2 frm2 = new Form2();
                 frm2.Show();
+
+
 
             }
             else
