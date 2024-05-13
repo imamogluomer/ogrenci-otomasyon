@@ -50,7 +50,6 @@ namespace OgrenciOtomasyon
             if (char.IsLetter(e.KeyChar) == false && e.KeyChar != (char)(32) && e.KeyChar != (char)(08))
             {
                 e.Handled = true;
-                txtAdress.Text = String.Empty;
             }
         }
     }
