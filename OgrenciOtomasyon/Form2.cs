@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace OgrenciOtomasyon
 {
     public partial class Form2 : Form
     {
+        public static string adSoyad;
         public Form2()
         {
             InitializeComponent();
@@ -26,6 +28,19 @@ namespace OgrenciOtomasyon
         {
             Form3 frm3 = new Form3();
             frm3.ShowDialog();
+        }
+
+        private void btnCikis_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void btnOgrenciEkle_Click(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3();
+            frm3.ShowDialog();
+
         }
     }
 }

@@ -28,7 +28,7 @@ namespace OgrenciOtomasyon
                 == "admin" && txtSifre.Text == "1234")
             {
                 
-                adSoyad = txtAdi.Text;
+                adSoyad = txtAdSoyad.Text;
                 this.Hide();
                 Form2 frm2 = new Form2();
                 frm2.Show();
@@ -38,9 +38,9 @@ namespace OgrenciOtomasyon
             }
             else
             {
+                lblMsg.Text = "Hatalı kullanıcı adı şifre";
                 txtKullanici.Text = "";
                 txtSifre.Clear();
-                lblMsg.Text = "Hatalı kullanıcı adı şifre";
 
 
 
@@ -51,6 +51,9 @@ namespace OgrenciOtomasyon
         private void Form1_Load(object sender, EventArgs e)
         {
             lblMsg.Text = string.Empty;
+            this.AcceptButton = btnGiris;
+            this.CancelButton = btnCikis;
+
         }
     }
 }

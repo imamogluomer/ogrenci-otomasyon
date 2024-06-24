@@ -29,51 +29,51 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.txtNumber = new System.Windows.Forms.TextBox();
-            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtNo = new System.Windows.Forms.TextBox();
+            this.txtAdSoyad = new System.Windows.Forms.TextBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.txtClass = new System.Windows.Forms.TextBox();
-            this.txtAdress = new System.Windows.Forms.TextBox();
+            this.txtSinif = new System.Windows.Forms.TextBox();
+            this.txtAdres = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
-            this.btnKapat = new System.Windows.Forms.Button();
+            this.btnCikis = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtNumber
+            // txtNo
             // 
-            this.txtNumber.Location = new System.Drawing.Point(152, 60);
-            this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(100, 22);
-            this.txtNumber.TabIndex = 0;
-            this.txtNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumber_KeyPress);
+            this.txtNo.Location = new System.Drawing.Point(152, 60);
+            this.txtNo.Name = "txtNo";
+            this.txtNo.Size = new System.Drawing.Size(100, 22);
+            this.txtNo.TabIndex = 0;
+            this.txtNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumber_KeyPress);
             // 
-            // txtName
+            // txtAdSoyad
             // 
-            this.txtName.Location = new System.Drawing.Point(152, 89);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 22);
-            this.txtName.TabIndex = 1;
-            this.txtName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
+            this.txtAdSoyad.Location = new System.Drawing.Point(152, 89);
+            this.txtAdSoyad.Name = "txtAdSoyad";
+            this.txtAdSoyad.Size = new System.Drawing.Size(100, 22);
+            this.txtAdSoyad.TabIndex = 1;
+            this.txtAdSoyad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
             // 
-            // txtClass
+            // txtSinif
             // 
-            this.txtClass.Location = new System.Drawing.Point(152, 118);
-            this.txtClass.Name = "txtClass";
-            this.txtClass.Size = new System.Drawing.Size(100, 22);
-            this.txtClass.TabIndex = 2;
+            this.txtSinif.Location = new System.Drawing.Point(152, 118);
+            this.txtSinif.Name = "txtSinif";
+            this.txtSinif.Size = new System.Drawing.Size(100, 22);
+            this.txtSinif.TabIndex = 2;
             // 
-            // txtAdress
+            // txtAdres
             // 
-            this.txtAdress.Location = new System.Drawing.Point(152, 147);
-            this.txtAdress.Name = "txtAdress";
-            this.txtAdress.Size = new System.Drawing.Size(100, 22);
-            this.txtAdress.TabIndex = 3;
+            this.txtAdres.Location = new System.Drawing.Point(152, 147);
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(100, 22);
+            this.txtAdres.TabIndex = 3;
             // 
             // label1
             // 
@@ -121,31 +121,31 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // btnKapat
+            // btnCikis
             // 
-            this.btnKapat.Location = new System.Drawing.Point(177, 205);
-            this.btnKapat.Name = "btnKapat";
-            this.btnKapat.Size = new System.Drawing.Size(75, 23);
-            this.btnKapat.TabIndex = 9;
-            this.btnKapat.Text = "Kapat";
-            this.btnKapat.UseVisualStyleBackColor = true;
-            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
+            this.btnCikis.Location = new System.Drawing.Point(177, 205);
+            this.btnCikis.Name = "btnCikis";
+            this.btnCikis.Size = new System.Drawing.Size(75, 23);
+            this.btnCikis.TabIndex = 9;
+            this.btnCikis.Text = "Kapat";
+            this.btnCikis.UseVisualStyleBackColor = true;
+            this.btnCikis.Click += new System.EventHandler(this.btnKapat_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnKapat);
+            this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtAdress);
-            this.Controls.Add(this.txtClass);
-            this.Controls.Add(this.txtName);
-            this.Controls.Add(this.txtNumber);
+            this.Controls.Add(this.txtAdres);
+            this.Controls.Add(this.txtSinif);
+            this.Controls.Add(this.txtAdSoyad);
+            this.Controls.Add(this.txtNo);
             this.Name = "Form3";
             this.Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
@@ -157,17 +157,17 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtNumber;
-        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtNo;
+        private System.Windows.Forms.TextBox txtAdSoyad;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.BindingSource bindingSource2;
-        private System.Windows.Forms.TextBox txtClass;
-        private System.Windows.Forms.TextBox txtAdress;
+        private System.Windows.Forms.TextBox txtSinif;
+        private System.Windows.Forms.TextBox txtAdres;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnKapat;
+        private System.Windows.Forms.Button btnCikis;
     }
 }

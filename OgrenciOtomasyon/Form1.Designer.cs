@@ -38,7 +38,7 @@
             this.btnGiris = new System.Windows.Forms.Button();
             this.btnCikis = new System.Windows.Forms.Button();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.txtAdi = new System.Windows.Forms.TextBox();
+            this.txtAdSoyad = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(368, 58);
+            this.label1.Location = new System.Drawing.Point(354, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 16);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(368, 107);
+            this.label2.Location = new System.Drawing.Point(354, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 16);
             this.label2.TabIndex = 1;
@@ -66,7 +66,7 @@
             // lblMsg
             // 
             this.lblMsg.AutoSize = true;
-            this.lblMsg.Location = new System.Drawing.Point(368, 194);
+            this.lblMsg.Location = new System.Drawing.Point(354, 189);
             this.lblMsg.Name = "lblMsg";
             this.lblMsg.Size = new System.Drawing.Size(44, 16);
             this.lblMsg.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(445, 107);
+            this.txtSifre.Location = new System.Drawing.Point(445, 103);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(300, 22);
             this.txtSifre.TabIndex = 3;
@@ -92,7 +92,7 @@
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(108, 88);
             this.btnGiris.TabIndex = 5;
-            this.btnGiris.Text = "button1";
+            this.btnGiris.Text = "Giriş";
             this.btnGiris.UseVisualStyleBackColor = true;
             this.btnGiris.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -102,7 +102,7 @@
             this.btnCikis.Name = "btnCikis";
             this.btnCikis.Size = new System.Drawing.Size(108, 88);
             this.btnCikis.TabIndex = 6;
-            this.btnCikis.Text = "button2";
+            this.btnCikis.Text = "Çıkış";
             this.btnCikis.UseVisualStyleBackColor = true;
             // 
             // fileSystemWatcher1
@@ -110,17 +110,17 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // txtAdi
+            // txtAdSoyad
             // 
-            this.txtAdi.Location = new System.Drawing.Point(445, 143);
-            this.txtAdi.Name = "txtAdi";
-            this.txtAdi.Size = new System.Drawing.Size(300, 22);
-            this.txtAdi.TabIndex = 7;
+            this.txtAdSoyad.Location = new System.Drawing.Point(445, 143);
+            this.txtAdSoyad.Name = "txtAdSoyad";
+            this.txtAdSoyad.Size = new System.Drawing.Size(300, 22);
+            this.txtAdSoyad.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(368, 149);
+            this.label3.Location = new System.Drawing.Point(354, 149);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 16);
             this.label3.TabIndex = 8;
@@ -140,7 +140,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtAdi);
+            this.Controls.Add(this.txtAdSoyad);
             this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnGiris);
             this.Controls.Add(this.txtKullanici);
@@ -168,7 +168,7 @@
         private System.Windows.Forms.Button btnCikis;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtAdi;
+        private System.Windows.Forms.TextBox txtAdSoyad;
         private System.Windows.Forms.ImageList ımageList1;
     }
 }
